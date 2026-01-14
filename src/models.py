@@ -1,10 +1,10 @@
 from dataclasses import dataclass
 
+# Define constants for the BTTF saga and other movies
 BTTF_SAGA_NAME = "Back to the Future"
 BTTF_UNIT_PRICE = 15.0
 OTHER_UNIT_PRICE = 20.0
 
-# Table des remises : {nombre_de_volets_differents: pourcentage_reduction}
 DISCOUNT_RATES = {
     3: 0.20,
     2: 0.10,
