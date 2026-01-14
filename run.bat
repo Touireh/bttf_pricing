@@ -10,5 +10,6 @@ if %errorlevel% neq 0 (
 )
 
 echo [ETAPE 2] Lancement du programme...
+
 python main.py
 pause
